@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<Dashboard personnalizedTheme="opt1" addedBy="Teacher" enableRelatedInformation="true" showNavigationBar="true" width="100%" type="onePage">
+
+<Library>https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js </Library>
+		<Library>https://code.highcharts.com/highcharts.js</Library>
+		<Library>https://code.highcharts.com/highcharts-more.js</Library>
+		  <Library>https://code.highcharts.com/modules/exporting.js</Library>
+		  <Header title="TactileoMap Strategical Dashboard">  
+		 <Menu cellPosition="center" style="list-style-type: none;     margin: 0;     padding: 0;     overflow: hidden;     background-color: #333;" styleTab="float: left;" styleLink="display: block;     color: white;     text-align: center;     padding: 14px 16px;     text-decoration: none;">
+		<Tab title="Tableau de bord strat&#xE9;gique "/>
+		<Tab title="TactileoMap: Le suivi de la performance des apprenants (Comparaison entre la S&#xE9;ance du 17/5/2017 et la S&#xE9;ance du 3/5/2018)"/>
+		  </Menu>
+		  </Header>
+		<View nature="comparaison" title="Comparaison entre deux s&#xE9;ances" style="height: auto;  width: 100%; margin-left: 0%; border: 1px solid #A9A9A9; display: inline-block;" type="onePage" max="25">
+		<Section title="S&#xE9;ance du 17/5/2017" style="height: auto;  width: 100%; margin: auto; border: 3px solid #A9A9A9; display: inline-block;" type="onePage" max="35">
+		<Component title="Nombre d\'actions effectu&#xE9;es par tablette" type="chart" style=" height: auto;                     width: auto; background-color: white;"><Chart id="1" title="Nombre d\'actions effectu&#xE9;es par tablette" subtitle="S&#xE9;ance du 17/5/2017" isValueShownAsLabel="true" style=" height: auto; width: 49%;                     background-color: white; display:inline-block;"><ChartType>scatter</ChartType>
+		<ChartArea>
+		<Legend/>
+		<Tooltip/>
+		<Plot showNavigator="true" drillDown="true" stacking="true"/>
+		<Axes>
+		<X>'Tablette 4',' Tablette 5',' Tablette 6',' Tablette 7',' Tablette 8',' Tablette 9',''</X>
+		<Y name="Nombre d\'actions"> <GroupValue id="">
+		<Value name="Photo">5, 15, 0, 1, 1,</Value>
+		<Value name="plissement.swf">0, 1, 0, 0, 0,</Value>
+		<Value name="Clinometre">0, 2, 0, 0, 0,</Value>
+		<Value name="Boussole">0, 3, 0, 0, 0,</Value>
+		<Value name="Note">1, 10, 2, 0, 4,</Value>
+		<Value name="acide.swf">0, 1, 0, 0, 0,</Value>
+		<Value name="Schema">0, 3, 0, 0, 0,</Value>
+		<Value name="actualisme.swf">0, 1, 0, 0, 0,</Value>
+		<Value name="discordance.swf">0, 1, 0, 0, 0,</Value>
+		<Value name="bauxite.png">0, 1, 2, 0, 0,</Value>
+		<Value name="bauxite.swf">1, 1, 0, 0, 0,</Value>
+		</GroupValue>
+		</Y>
+		</Axes>
+		</ChartArea>
+		</Chart>
+		</Component>
+
+<Component title="Nombre d\'actions effectu&#xE9;es dans chaque station" type="chart" style=" height: auto;                     width: auto; background-color: white;"><Chart id="2" title="Nombre d\'actions effectu&#xE9;es dans chaque station" subtitle="S&#xE9;ance du 17/5/2017" isValueShownAsLabel="true" style=" height: auto; width: 49%;                     background-color: white; display:inline-block;"><ChartType>area</ChartType>
+		<ChartArea>
+		<Legend/>
+		<Tooltip/>
+		<Plot showNavigator="true" drillDown="true" stacking="true"/>
+		<Axes>
+		<X>'Tablette 4',' Tablette 5',' Tablette 6',' Tablette 7',' Tablette 8',''</X>
+		<Y name="Nombre d\'actions"> <GroupValue id="">
+		<Value name="Station 1">0, 8, 0, 0, 1,</Value>
+		<Value name="Station 2">0, 16, 0, 0, 0,</Value>
+		<Value name="Station 3">0, 7, 0, 0, 0,</Value>
+		<Value name="Station 4">0, 1, 0, 0, 0,</Value>
+		<Value name="Station 5">0, 2, 0, 0, 1,</Value>
+		<Value name="Station 5bis">0, 1, 0, 0, 1,</Value>
+		<Value name="Station 6">0, 2, 0, 0, 0,</Value>
+		<Value name="Station 7">0, 0, 1, 0, 1,</Value>
+		<Value name="Station 7ter">7, 2, 3, 1, 1,</Value>
+		</GroupValue>
+		</Y>
+		</Axes>
+		</ChartArea>
+		</Chart>
+		</Component>
+
+</Section>
+
+<Section title="S&#xE9;ance du 3/5/2018" style="height: auto;  width: 100%; margin: auto; border: 3px solid #A9A9A9; display: inline-block;" type="onePage" max="35">
+		<Component title="Nombre d\'actions effectu&#xE9;es par tablette" type="chart" style=" height: auto;                     width: auto; background-color: white;"><Chart id="3" title="Nombre d\'actions effectu&#xE9;es par tablette" subtitle="S&#xE9;ance du 3/5/2018" isValueShownAsLabel="true" style=" height: auto; width: 49%;                     background-color: white; display:inline-block;"><ChartType>column</ChartType>
+		<ChartArea>
+		<Legend/>
+		<Tooltip/>
+		<Plot showNavigator="true" drillDown="true" stacking="true"/>
+		<Axes>
+		<X>'Tablette 2',' Tablette 4','Tablette 8',''</X>
+		<Y name="Nombre d\'actions"> <GroupValue id="">
+		<Value name="Photo">3, 3, 0,</Value>
+		<Value name="Note">0, 0, 1, </Value>
+		</GroupValue>
+		</Y>
+		</Axes>
+		</ChartArea>
+		</Chart>
+		</Component>
+
+<Component title="Nombre d\'actions effectu&#xE9;es dans chaque station" type="chart" style=" height: auto;                     width: auto; background-color: white;"><Chart id="4" title="Nombre d\'actions effectu&#xE9;es dans chaque station" subtitle="S&#xE9;ance du 3/5/2018" isValueShownAsLabel="true" style=" height: auto; width: 49%;                     background-color: white; display:inline-block;"><ChartType>scatter</ChartType>
+		<ChartArea>
+		<Legend/>
+		<Tooltip/>
+		<Plot showNavigator="true" drillDown="true" stacking="true"/>
+		<Axes>
+		<X>'Tablette 4',' Tablette 5',' Tablette 6',' Tablette 7',' Tablette 8',''</X>
+		<Y name="Nombre d\'actions"> <GroupValue id="">
+		<Value name="Station 2">0, 0, 1,</Value>
+		<Value name="Station 7">3, 3, 0,</Value>
+		</GroupValue>
+		</Y>
+		</Axes>
+		</ChartArea>
+		</Chart>
+		</Component>
+
+</Section>
+
+</View>
+
+<GroupIndicators>
+
+<Indicator id="1">
+
+<Dimension id="1">
+		<data/>
+		<value/>
+		</Dimension>
+	<Dimension id="2">
+		<data/>
+		<value/>
+		</Dimension>
+	<Dimension id="3">
+		<data/>
+		<value/>
+		</Dimension>
+	</Indicator>
+
+<Indicator id="2++">
+
+<Dimension id="1">
+		<data/>
+		<value/>
+		</Dimension>
+	</Indicator>
+
+</GroupIndicators>
+
+</Dashboard>
